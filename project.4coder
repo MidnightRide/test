@@ -1,0 +1,122 @@
+version(1);
+
+project_name = "Matcha";
+
+patterns = {
+    "*.c",
+    "*.cpp",
+    "*.jai",
+    "*.odin",
+    "*.zig",
+    "*.",
+    "*.inc",
+    "*.bat",
+    "*.sh",
+    "*.4coder",
+    "*.txt",
+	"*.glsl",
+	"*.h",
+};
+
+blacklist_patterns = {
+    ".*",
+};
+
+load_paths = {
+    {
+        {
+            {
+                "."
+            }, .recursive = true, .relative = true
+        }, .os = "win"
+    },
+};
+
+build = "build-all.bat";
+run = "run.bat";
+clean = "clean-all.bat";
+post_build = "post-build.bat";
+run_tests = "run-tests.bat";
+
+command_list = {
+    {
+        .name = "build",
+            .out = "*compilation*",
+            .footer_panel = true,
+            .save_dirty_files = true,
+            .cursor_at_end = false,
+            .cmd = {
+                {
+                    build,
+                    .os = "win"
+                },
+                {
+                    "echo Linux build command not implemented for 4coder project.",
+                    .os = "linux"
+                },
+            },
+    },
+
+    {
+        .name = "run",
+        .out = "*compilation*",
+        .footer_panel = true,
+        .save_dirty_files = true,
+        .cursor_at_end = false,
+        .cmd = {
+            {
+                run,
+                .os = "win"
+            },
+        },
+    },
+
+    {
+        .name = "clean",
+        .out = "*compilation*",
+        .footer_panel = true,
+        .save_dirty_files = true,
+        .cursor_at_end = true,
+        .cmd = {
+            {
+                clean,
+                .os = "win"
+            },
+        },
+    },
+
+    {
+        .name = "post-build",
+        .out = "*compilation*",
+        .footer_panel = true,
+        .save_dirty_files = true,
+        .cursor_at_end = false,
+        .cmd = {
+            {
+                post_build,
+                .os = "win"
+            },
+        },
+    },
+
+    {
+        .name = "run-tests",
+        .out = "*compilation*",
+        .footer_panel = true,
+        .save_dirty_files = true,
+        .cursor_at_end = false,
+        .cmd = {
+            {
+                run_tests,
+                .os = "win"
+            },
+        },
+    },
+
+};
+
+fkey_command[1] = "build";
+fkey_command[2] = "run";
+fkey_command[3] = "clean";
+fkey_command[4] = "post-build";
+fkey_command[5] = "run-tests";

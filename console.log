@@ -1,0 +1,46 @@
+[INFO]: Input subsystem state_ptr.
+[DEBUG]: Window resize: 1280, 720
+[WARN]: renderer backend does not exist to accept resize: 1280 720
+[DEBUG]: Required extensions:
+[DEBUG]: VK_KHR_surface
+[DEBUG]: VK_KHR_win32_surface
+[DEBUG]: VK_EXT_debug_utils
+[INFO]: Validation layers enabled. Enumerating...
+[INFO]: Searching for layer: VK_LAYER_KHRONOS_validation...
+[INFO]: Found.
+[INFO]: All required validation layers are present.
+[INFO]: Vulkan Instance created.
+[DEBUG]: Creating Vulkan debugger...
+[DEBUG]: Vulkan debugger created.
+[DEBUG]: Creating Vulkan surface...
+[DEBUG]: Vulkan surface created.
+[INFO]: Graphics | Present | Compute | Transfer | Name
+[INFO]:        1 |       1 |       1 |        1 | NVIDIA GeForce RTX 2060 SUPER
+[INFO]: Device meets queue requirements.
+[TRACE]: Graphics Family Index: 0
+[TRACE]: Present Family Index:  2
+[TRACE]: Transfer Family Index: 1
+[TRACE]: Compute Family Index:  2
+[INFO]: Selected device: 'NVIDIA GeForce RTX 2060 SUPER'.
+[INFO]: GPU type is Descrete.
+[INFO]: GPU Driver version: 497.116.0
+[INFO]: Vulkan API version: 1.2.186
+[INFO]: Local GPU memory: 7.84 GiB
+[INFO]: Shared System memory: 7.97 GiB
+[INFO]: Local GPU memory: 0.21 GiB
+[INFO]: Physical device selected.
+[INFO]: Creating logical device...
+[INFO]: Inserted device layer VK_LAYER_KHRONOS_validation (C:\VulkanSDK\1.2.189.2\Bin\.\VkLayer_khronos_validation.dll)
+[INFO]: Inserted device layer VK_LAYER_NV_optimus (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_0bc9105c62ca22fb\.\nvoglv64.dll)
+[INFO]: Logical device created.
+[INFO]: Queues obtained.
+[INFO]: Graphics command pool created.
+[INFO]: Swapchain created successfully.
+[DEBUG]: Vulkan command buffers created.
+[ERROR]: Error opening file: 'assets/shaders/Builtin.MaterialShader.vert.spv'
+[ERROR]: Unable to read shader module: assets/shaders/Builtin.MaterialShader.vert.spv.
+[ERROR]: Unable to create vert shader module for 'Builtin.MaterialShader'.
+[ERROR]: Error loading built-in basic_lighting shader.
+[FATAL]: Renderer backend failed to initialise. Shutting down.
+[FATAL]: Failed to initialise renderer. Aborting application.
+[INFO]: Application failed to create!

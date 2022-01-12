@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "logger.h": "c",
+        "platform.h": "c",
+        "vulkan.h": "c",
+        "mstring.h": "c",
+        "clock.h": "c",
+        "vulkan_utils.h": "c",
+        "vulkan_pipeline.h": "c",
+        "vulkan_types.inl": "c",
+        "defines.h": "c",
+        "vulkan_material_shader.h": "c",
+        "stb_image.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
+}

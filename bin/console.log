@@ -1,0 +1,628 @@
+[INFO]: Input subsystem state_ptr.h
+[DEBUG]: Window resize: 1280, 720
+[WARN]: renderer backend does not exist to accept resize: 1280 720
+[DEBUG]: Required extensions:
+[DEBUG]: VK_KHR_surface
+[DEBUG]: VK_KHR_win32_surface
+[DEBUG]: VK_EXT_debug_utils
+[INFO]: Validation layers enabled. Enumerating...
+[INFO]: Searching for layer: VK_LAYER_KHRONOS_validation...
+[INFO]: Found.
+[INFO]: All required validation layers are present.
+[INFO]: Vulkan Instance created.
+[DEBUG]: Creating Vulkan debugger...
+[DEBUG]: Vulkan debugger created.
+[DEBUG]: Creating Vulkan surface...
+[DEBUG]: Vulkan surface created.
+[INFO]: Graphics | Present | Compute | Transfer | Name
+[INFO]:        1 |       1 |       1 |        1 | NVIDIA GeForce RTX 2060 SUPER
+[INFO]: Device meets queue requirements.
+[TRACE]: Graphics Family Index: 0
+[TRACE]: Present Family Index:  2
+[TRACE]: Transfer Family Index: 1
+[TRACE]: Compute Family Index:  2
+[INFO]: Selected device: 'NVIDIA GeForce RTX 2060 SUPER'.
+[INFO]: GPU type is Descrete.
+[INFO]: GPU Driver version: 497.116.0
+[INFO]: Vulkan API version: 1.2.186
+[INFO]: Local GPU memory: 7.84 GiB
+[INFO]: Shared System memory: 7.97 GiB
+[INFO]: Local GPU memory: 0.21 GiB
+[INFO]: Physical device selected.
+[INFO]: Creating logical device...
+[INFO]: Inserted device layer VK_LAYER_KHRONOS_validation (C:\VulkanSDK\1.2.189.2\Bin\.\VkLayer_khronos_validation.dll)
+[INFO]: Inserted device layer VK_LAYER_NV_optimus (C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_0bc9105c62ca22fb\.\nvoglv64.dll)
+[INFO]: Logical device created.
+[INFO]: Queues obtained.
+[INFO]: Graphics command pool created.
+[INFO]: Swapchain created successfully.
+[DEBUG]: Vulkan command buffers created.
+[WARN]: Validation Performance Warning: [ UNASSIGNED-CoreValidation-Shader-OutputNotConsumed ] Object 0: handle = 0xd10d270000000018, type = VK_OBJECT_TYPE_SHADER_MODULE; | MessageID = 0x609a13b | vertex shader writes to output location 0.0 which is not consumed by fragment shader
+[DEBUG]: Graphics pipeline created!
+[INFO]: Vulkan renderer initialised successfully.
+[TRACE]: Creating default texture...
+[TRACE]: Renderer: Material created.
+[DEBUG]: game_initialise() called!
+[INFO]: System memory use (tagged):
+ UNKNOWN    : 0.00B
+ ARRAY      : 0.00B
+ LINEAR_ALLC: 0.00B
+ DARRAY     : 6.82Kib
+ DICT       : 0.00B
+ RING_QUEUE : 0.00B
+ BST        : 0.00B
+ STRING     : 2.97Kib
+ APPLICATION: 0.00B
+ JOB        : 0.00B
+ TEXTURE    : 40.00B
+ MAT_INST   : 0.00B
+ RENDERER   : 136.00B
+ GAME       : 0.00B
+ TRANSFORM  : 0.00B
+ ENTITY     : 0.00B
+ ENTITY_NODE: 0.00B
+ SCENE      : 0.00B
+
+[TRACE]: Texture 'paving2' does not yet exist. Created, and ref_count is now 1.
+[TRACE]: Renderer: Material created.
+[TRACE]: Material 'test_material' does not yet exist. Created, and ref_count is now 1.h
+[DEBUG]: ''' key pressed in window.h
+[DEBUG]: ''' key released in window.h
+[DEBUG]: '%' key pressed in window.h
+[DEBUG]: '%' key released in window.h
+[DEBUG]: '(' key pressed in window.h
+[DEBUG]: '(' key released in window.h
+[INFO]: Left alt pressed.h
+[DEBUG]: '¤' key pressed in window.h
+[DEBUG]: '&' key pressed in window.h
+[DEBUG]: '%' key pressed in window.h
+[DEBUG]: '&' key released in window.h
+[DEBUG]: '%' key released in window.h
+[DEBUG]: 'T' key pressed in window.h
+[DEBUG]: 'T' key released in window.h
+[DEBUG]: Swapping textures!
+[TRACE]: Texture 'paving' does not yet exist. Created, and ref_count is now 1.
+[WARN]: Tried to release non-existent texture: 'cobblestone'
+[DEBUG]: 'T' key pressed in window.h
+[DEBUG]: 'T' key released in window.h
+[DEBUG]: Swapping textures!
+[TRACE]: Texture 'paving2' already exists, ref_count increased to 2.
+[TRACE]: Released texture 'paving'., Texture unloaded because reference count=0 and auto_release=true.
+[DEBUG]: 'T' key pressed in window.h
+[DEBUG]: 'T' key released in window.h
+[DEBUG]: Swapping textures!
+[TRACE]: Texture 'cobblestone' does not yet exist. Created, and ref_count is now 1.
+[TRACE]: Released texture 'paving2', now has a reference count of '1' (auto_release=true).
+[DEBUG]: 'T' key pressed in window.h
+[DEBUG]: 'T' key released in window.h
+[DEBUG]: Swapping textures!
+[TRACE]: Texture 'paving' does not yet exist. Created, and ref_count is now 1.
+[TRACE]: Released texture 'cobblestone'., Texture unloaded because reference count=0 and auto_release=true.
+[DEBUG]: 'T' key pressed in window.h
+[DEBUG]: 'T' key released in window.h
+[DEBUG]: Swapping textures!
+[TRACE]: Texture 'paving2' already exists, ref_count increased to 2.
+[TRACE]: Released texture 'paving'., Texture unloaded because reference count=0 and auto_release=true.
+[DEBUG]: 'T' key pressed in window.h
+[DEBUG]: 'T' key released in window.h
+[DEBUG]: Swapping textures!
+[TRACE]: Texture 'cobblestone' does not yet exist. Created, and ref_count is now 1.
+[TRACE]: Released texture 'paving2', now has a reference count of '1' (auto_release=true).
+[DEBUG]: 'T' key pressed in window.h
+[DEBUG]: 'T' key released in window.h
+[DEBUG]: Swapping textures!
+[TRACE]: Texture 'paving' does not yet exist. Created, and ref_count is now 1.
+[TRACE]: Released texture 'cobblestone'., Texture unloaded because reference count=0 and auto_release=true.
+[DEBUG]: 'T' key pressed in window.h
+[DEBUG]: 'T' key released in window.h
+[DEBUG]: Swapping textures!
+[TRACE]: Texture 'paving2' already exists, ref_count increased to 2.
+[TRACE]: Released texture 'paving'., Texture unloaded because reference count=0 and auto_release=true.
+[DEBUG]: 'T' key pressed in window.h
+[DEBUG]: 'T' key released in window.h
+[DEBUG]: Swapping textures!
+[TRACE]: Texture 'cobblestone' does not yet exist. Created, and ref_count is now 1.
+[TRACE]: Released texture 'paving2', now has a reference count of '1' (auto_release=true).
+[DEBUG]: 'T' key pressed in window.h
+[DEBUG]: 'T' key released in window.h
+[DEBUG]: Swapping textures!
+[TRACE]: Texture 'paving' does not yet exist. Created, and ref_count is now 1.
+[TRACE]: Released texture 'cobblestone'., Texture unloaded because reference count=0 and auto_release=true.
+[DEBUG]: 'T' key pressed in window.h
+[DEBUG]: 'T' key released in window.h
+[DEBUG]: Swapping textures!
+[TRACE]: Texture 'paving2' already exists, ref_count increased to 2.
+[TRACE]: Released texture 'paving'., Texture unloaded because reference count=0 and auto_release=true.
+[DEBUG]: 'T' key pressed in window.h
+[DEBUG]: 'T' key released in window.h
+[DEBUG]: Swapping textures!
+[TRACE]: Texture 'cobblestone' does not yet exist. Created, and ref_count is now 1.
+[TRACE]: Released texture 'paving2', now has a reference count of '1' (auto_release=true).
+[DEBUG]: 'T' key pressed in window.h
+[DEBUG]: 'T' key released in window.h
+[DEBUG]: Swapping textures!
+[TRACE]: Texture 'paving' does not yet exist. Created, and ref_count is now 1.
+[TRACE]: Released texture 'cobblestone'., Texture unloaded because reference count=0 and auto_release=true.
+[DEBUG]: 'T' key pressed in window.h
+[DEBUG]: 'T' key released in window.h
+[DEBUG]: Swapping textures!
+[TRACE]: Texture 'paving2' already exists, ref_count increased to 2.
+[TRACE]: Released texture 'paving'., Texture unloaded because reference count=0 and auto_release=true.
+[DEBUG]: 'T' key pressed in window.h
+[DEBUG]: 'T' key released in window.h
+[DEBUG]: Swapping textures!
+[TRACE]: Texture 'cobblestone' does not yet exist. Created, and ref_count is now 1.
+[TRACE]: Released texture 'paving2', now has a reference count of '1' (auto_release=true).
+[DEBUG]: 'T' key pressed in window.h
+[DEBUG]: 'T' key released in window.h
+[DEBUG]: Swapping textures!
+[TRACE]: Texture 'paving' does not yet exist. Created, and ref_count is now 1.
+[TRACE]: Released texture 'cobblestone'., Texture unloaded because reference count=0 and auto_release=true.
+[DEBUG]: 'T' key pressed in window.h
+[DEBUG]: 'T' key released in window.h
+[DEBUG]: Swapping textures!
+[TRACE]: Texture 'paving2' already exists, ref_count increased to 2.
+[TRACE]: Released texture 'paving'., Texture unloaded because reference count=0 and auto_release=true.
+[DEBUG]: 'T' key pressed in window.h
+[DEBUG]: 'T' key released in window.h
+[DEBUG]: Swapping textures!
+[TRACE]: Texture 'cobblestone' does not yet exist. Created, and ref_count is now 1.
+[TRACE]: Released texture 'paving2', now has a reference count of '1' (auto_release=true).
+[DEBUG]: 'T' key pressed in window.h
+[DEBUG]: 'T' key released in window.h
+[DEBUG]: Swapping textures!
+[TRACE]: Texture 'paving' does not yet exist. Created, and ref_count is now 1.
+[TRACE]: Released texture 'cobblestone'., Texture unloaded because reference count=0 and auto_release=true.
+[DEBUG]: 'T' key pressed in window.h
+[DEBUG]: 'T' key released in window.h
+[DEBUG]: Swapping textures!
+[TRACE]: Texture 'paving2' already exists, ref_count increased to 2.
+[TRACE]: Released texture 'paving'., Texture unloaded because reference count=0 and auto_release=true.
+[DEBUG]: 'T' key pressed in window.h
+[DEBUG]: 'T' key released in window.h
+[DEBUG]: Swapping textures!
+[TRACE]: Texture 'cobblestone' does not yet exist. Created, and ref_count is now 1.
+[TRACE]: Released texture 'paving2', now has a reference count of '1' (auto_release=true).
+[DEBUG]: 'T' key pressed in window.h
+[DEBUG]: 'T' key released in window.h
+[DEBUG]: Swapping textures!
+[TRACE]: Texture 'paving' does not yet exist. Created, and ref_count is now 1.
+[TRACE]: Released texture 'cobblestone'., Texture unloaded because reference count=0 and auto_release=true.
+[DEBUG]: 'T' key pressed in window.h
+[DEBUG]: 'T' key released in window.h
+[DEBUG]: Swapping textures!
+[TRACE]: Texture 'paving2' already exists, ref_count increased to 2.
+[TRACE]: Released texture 'paving'., Texture unloaded because reference count=0 and auto_release=true.
+[DEBUG]: '(' key pressed in window.h
+[DEBUG]: ''' key pressed in window.h
+[DEBUG]: '%' key pressed in window.h
+[DEBUG]: '(' key released in window.h
+[DEBUG]: '%' key released in window.h
+[DEBUG]: '&' key pressed in window.h
+[DEBUG]: ''' key released in window.h
+[DEBUG]: '&' key released in window.h
+[DEBUG]: ''' key pressed in window.h
+[DEBUG]: '(' key pressed in window.h
+[DEBUG]: ''' key released in window.h
+[DEBUG]: '%' key pressed in window.h
+[DEBUG]: '(' key released in window.h
+[DEBUG]: 'W' key pressed in window.h
+[DEBUG]: '%' key released in window.h
+[DEBUG]: 'D' key pressed in window.h
+[DEBUG]: '%' key pressed in window.h
+[DEBUG]: '%' key released in window.h
+[DEBUG]: 'W' key released in window.h
+[DEBUG]: '%' key pressed in window.h
+[DEBUG]: '%' key released in window.h
+[DEBUG]: '%' key pressed in window.h
+[DEBUG]: 'S' key pressed in window.h
+[DEBUG]: Explicit = A key pressed!
+[DEBUG]: 'D' key released in window.h
+[DEBUG]: '%' key released in window.h
+[DEBUG]: 'S' key released in window.h
+[DEBUG]: ''' key pressed in window.h
+[DEBUG]: 'T' key pressed in window.h
+[DEBUG]: '%' key pressed in window.h
+[DEBUG]: ''' key released in window.h
+[DEBUG]: 'T' key released in window.h
+[DEBUG]: Swapping textures!
+[TRACE]: Texture 'cobblestone' does not yet exist. Created, and ref_count is now 1.
+[TRACE]: Released texture 'paving2', now has a reference count of '1' (auto_release=true).
+[DEBUG]: '%' key released in window.h
+[DEBUG]: ''' key pressed in window.h
+[DEBUG]: 'T' key pressed in window.h
+[DEBUG]: 'T' key released in window.h
+[DEBUG]: Swapping textures!
+[TRACE]: Texture 'paving' does not yet exist. Created, and ref_count is now 1.
+[TRACE]: Released texture 'cobblestone'., Texture unloaded because reference count=0 and auto_release=true.
+[DEBUG]: '%' key pressed in window.h
+[DEBUG]: 'T' key pressed in window.h
+[DEBUG]: 'T' key released in window.h
+[DEBUG]: Swapping textures!
+[TRACE]: Texture 'paving2' already exists, ref_count increased to 2.
+[TRACE]: Released texture 'paving'., Texture unloaded because reference count=0 and auto_release=true.
+[DEBUG]: 'T' key pressed in window.h
+[DEBUG]: 'T' key released in window.h
+[DEBUG]: Swapping textures!
+[TRACE]: Texture 'cobblestone' does not yet exist. Created, and ref_count is now 1.
+[TRACE]: Released texture 'paving2', now has a reference count of '1' (auto_release=true).
+[DEBUG]: '%' key released in window.h
+[DEBUG]: 'A' key released in window.h
+[DEBUG]: '%' key pressed in window.h
+[DEBUG]: ''' key released in window.h
+[DEBUG]: 'T' key pressed in window.h
+[DEBUG]: 'T' key released in window.h
+[DEBUG]: Swapping textures!
+[TRACE]: Texture 'paving' does not yet exist. Created, and ref_count is now 1.
+[TRACE]: Released texture 'cobblestone'., Texture unloaded because reference count=0 and auto_release=true.
+[DEBUG]: 'T' key pressed in window.h
+[DEBUG]: ''' key pressed in window.h
+[DEBUG]: '%' key released in window.h
+[DEBUG]: 'T' key released in window.h
+[DEBUG]: Swapping textures!
+[TRACE]: Texture 'paving2' already exists, ref_count increased to 2.
+[TRACE]: Released texture 'paving'., Texture unloaded because reference count=0 and auto_release=true.
+[DEBUG]: 'D' key pressed in window.h
+[DEBUG]: '%' key pressed in window.h
+[DEBUG]: ''' key released in window.h
+[DEBUG]: '%' key released in window.h
+[DEBUG]: 'D' key released in window.h
+[DEBUG]: 'T' key pressed in window.h
+[DEBUG]: 'T' key released in window.h
+[DEBUG]: Swapping textures!
+[TRACE]: Texture 'cobblestone' does not yet exist. Created, and ref_count is now 1.
+[TRACE]: Released texture 'paving2', now has a reference count of '1' (auto_release=true).
+[DEBUG]: 'T' key pressed in window.h
+[DEBUG]: 'T' key released in window.h
+[DEBUG]: Swapping textures!
+[TRACE]: Texture 'paving' does not yet exist. Created, and ref_count is now 1.
+[TRACE]: Released texture 'cobblestone'., Texture unloaded because reference count=0 and auto_release=true.
+[DEBUG]: 'T' key pressed in window.h
+[DEBUG]: 'T' key released in window.h
+[DEBUG]: Swapping textures!
+[TRACE]: Texture 'paving2' already exists, ref_count increased to 2.
+[TRACE]: Released texture 'paving'., Texture unloaded because reference count=0 and auto_release=true.
+[DEBUG]: 'T' key pressed in window.h
+[DEBUG]: 'T' key released in window.h
+[DEBUG]: Swapping textures!
+[TRACE]: Texture 'cobblestone' does not yet exist. Created, and ref_count is now 1.
+[TRACE]: Released texture 'paving2', now has a reference count of '1' (auto_release=true).
+[DEBUG]: '%' key pressed in window.h
+[DEBUG]: '%' key released in window.h
+[DEBUG]: 'T' key pressed in window.h
+[DEBUG]: ''' key pressed in window.h
+[DEBUG]: 'T' key released in window.h
+[DEBUG]: Swapping textures!
+[TRACE]: Texture 'paving' does not yet exist. Created, and ref_count is now 1.
+[TRACE]: Released texture 'cobblestone'., Texture unloaded because reference count=0 and auto_release=true.
+[DEBUG]: '(' key pressed in window.h
+[DEBUG]: ''' key released in window.h
+[DEBUG]: '%' key pressed in window.h
+[DEBUG]: '(' key released in window.h
+[DEBUG]: 'T' key pressed in window.h
+[DEBUG]: 'T' key released in window.h
+[DEBUG]: Swapping textures!
+[TRACE]: Texture 'paving2' already exists, ref_count increased to 2.
+[TRACE]: Released texture 'paving'., Texture unloaded because reference count=0 and auto_release=true.
+[DEBUG]: '%' key released in window.h
+[DEBUG]: '&' key pressed in window.h
+[DEBUG]: 'T' key pressed in window.h
+[DEBUG]: '%' key pressed in window.h
+[DEBUG]: '&' key released in window.h
+[DEBUG]: '%' key released in window.h
+[DEBUG]: ''' key pressed in window.h
+[DEBUG]: 'T' key released in window.h
+[DEBUG]: Swapping textures!
+[TRACE]: Texture 'cobblestone' does not yet exist. Created, and ref_count is now 1.
+[TRACE]: Released texture 'paving2', now has a reference count of '1' (auto_release=true).
+[DEBUG]: '&' key pressed in window.h
+[DEBUG]: 'T' key pressed in window.h
+[DEBUG]: '&' key released in window.h
+[DEBUG]: '(' key pressed in window.h
+[DEBUG]: '%' key pressed in window.h
+[DEBUG]: 'T' key released in window.h
+[DEBUG]: Swapping textures!
+[TRACE]: Texture 'paving' does not yet exist. Created, and ref_count is now 1.
+[TRACE]: Released texture 'cobblestone'., Texture unloaded because reference count=0 and auto_release=true.
+[DEBUG]: '(' key released in window.h
+[DEBUG]: ''' key released in window.h
+[DEBUG]: '&' key pressed in window.h
+[DEBUG]: 'T' key pressed in window.h
+[DEBUG]: '%' key released in window.h
+[DEBUG]: '&' key released in window.h
+[DEBUG]: ''' key pressed in window.h
+[DEBUG]: 'T' key released in window.h
+[DEBUG]: Swapping textures!
+[TRACE]: Texture 'paving2' already exists, ref_count increased to 2.
+[TRACE]: Released texture 'paving'., Texture unloaded because reference count=0 and auto_release=true.
+[DEBUG]: '&' key pressed in window.h
+[DEBUG]: 'T' key pressed in window.h
+[DEBUG]: '&' key released in window.h
+[DEBUG]: 'T' key released in window.h
+[DEBUG]: Swapping textures!
+[TRACE]: Texture 'cobblestone' does not yet exist. Created, and ref_count is now 1.
+[TRACE]: Released texture 'paving2', now has a reference count of '1' (auto_release=true).
+[DEBUG]: '(' key pressed in window.h
+[DEBUG]: ''' key released in window.h
+[DEBUG]: 'T' key pressed in window.h
+[DEBUG]: '%' key pressed in window.h
+[DEBUG]: '(' key released in window.h
+[DEBUG]: 'T' key released in window.h
+[DEBUG]: Swapping textures!
+[TRACE]: Texture 'paving' does not yet exist. Created, and ref_count is now 1.
+[TRACE]: Released texture 'cobblestone'., Texture unloaded because reference count=0 and auto_release=true.
+[DEBUG]: '&' key pressed in window.h
+[DEBUG]: '%' key released in window.h
+[DEBUG]: 'T' key pressed in window.h
+[DEBUG]: '&' key released in window.h
+[DEBUG]: '%' key pressed in window.h
+[DEBUG]: 'T' key released in window.h
+[DEBUG]: Swapping textures!
+[TRACE]: Texture 'paving2' already exists, ref_count increased to 2.
+[TRACE]: Released texture 'paving'., Texture unloaded because reference count=0 and auto_release=true.
+[DEBUG]: ''' key pressed in window.h
+[DEBUG]: '(' key pressed in window.h
+[DEBUG]: '%' key released in window.h
+[DEBUG]: ''' key released in window.h
+[DEBUG]: '%' key pressed in window.h
+[DEBUG]: '(' key released in window.h
+[DEBUG]: 'T' key pressed in window.h
+[DEBUG]: ''' key pressed in window.h
+[DEBUG]: 'T' key released in window.h
+[DEBUG]: Swapping textures!
+[TRACE]: Texture 'cobblestone' does not yet exist. Created, and ref_count is now 1.
+[TRACE]: Released texture 'paving2', now has a reference count of '1' (auto_release=true).
+[DEBUG]: '&' key pressed in window.h
+[DEBUG]: '%' key released in window.h
+[DEBUG]: '%' key pressed in window.h
+[DEBUG]: 'T' key pressed in window.h
+[DEBUG]: '&' key released in window.h
+[DEBUG]: '%' key released in window.h
+[DEBUG]: 'T' key released in window.h
+[DEBUG]: Swapping textures!
+[TRACE]: Texture 'paving' does not yet exist. Created, and ref_count is now 1.
+[TRACE]: Released texture 'cobblestone'., Texture unloaded because reference count=0 and auto_release=true.
+[DEBUG]: '(' key pressed in window.h
+[DEBUG]: '%' key pressed in window.h
+[DEBUG]: 'T' key pressed in window.h
+[DEBUG]: '(' key released in window.h
+[DEBUG]: ''' key released in window.h
+[DEBUG]: 'T' key released in window.h
+[DEBUG]: Swapping textures!
+[TRACE]: Texture 'paving2' already exists, ref_count increased to 2.
+[TRACE]: Released texture 'paving'., Texture unloaded because reference count=0 and auto_release=true.
+[DEBUG]: ''' key pressed in window.h
+[DEBUG]: '%' key released in window.h
+[DEBUG]: '(' key pressed in window.h
+[DEBUG]: 'T' key pressed in window.h
+[DEBUG]: '%' key pressed in window.h
+[DEBUG]: '(' key released in window.h
+[DEBUG]: 'T' key released in window.h
+[DEBUG]: Swapping textures!
+[TRACE]: Texture 'cobblestone' does not yet exist. Created, and ref_count is now 1.
+[TRACE]: Released texture 'paving2', now has a reference count of '1' (auto_release=true).
+[DEBUG]: '&' key pressed in window.h
+[DEBUG]: '%' key released in window.h
+[DEBUG]: 'T' key pressed in window.h
+[DEBUG]: ''' key released in window.h
+[DEBUG]: '%' key pressed in window.h
+[DEBUG]: '&' key released in window.h
+[DEBUG]: 'T' key released in window.h
+[DEBUG]: Swapping textures!
+[TRACE]: Texture 'paving' does not yet exist. Created, and ref_count is now 1.
+[TRACE]: Released texture 'cobblestone'., Texture unloaded because reference count=0 and auto_release=true.
+[DEBUG]: ''' key pressed in window.h
+[DEBUG]: '%' key released in window.h
+[DEBUG]: '(' key pressed in window.h
+[DEBUG]: Explicit = A key pressed!
+[DEBUG]: '(' key released in window.h
+[DEBUG]: 'W' key pressed in window.h
+[DEBUG]: 'W' key released in window.h
+[DEBUG]: ''' key released in window.h
+[DEBUG]: 'A' key released in window.h
+[DEBUG]: '%' key pressed in window.h
+[DEBUG]: '%' key released in window.h
+[DEBUG]: '&' key pressed in window.h
+[DEBUG]: '%' key pressed in window.h
+[DEBUG]: '&' key released in window.h
+[DEBUG]: '%' key released in window.h
+[DEBUG]: ''' key pressed in window.h
+[DEBUG]: ''' key released in window.h
+[DEBUG]: '(' key pressed in window.h
+[DEBUG]: '(' key released in window.h
+[DEBUG]: '%' key pressed in window.h
+[DEBUG]: '%' key released in window.h
+[DEBUG]: ''' key pressed in window.h
+[DEBUG]: ''' key released in window.h
+[DEBUG]: ''' key pressed in window.h
+[DEBUG]: ''' key released in window.h
+[DEBUG]: '%' key pressed in window.h
+[DEBUG]: '%' key released in window.h
+[DEBUG]: ''' key pressed in window.h
+[DEBUG]: ''' key released in window.h
+[DEBUG]: '(' key pressed in window.h
+[DEBUG]: '(' key released in window.h
+[DEBUG]: '%' key pressed in window.h
+[DEBUG]: '%' key released in window.h
+[DEBUG]: '&' key pressed in window.h
+[DEBUG]: ''' key pressed in window.h
+[DEBUG]: '&' key released in window.h
+[DEBUG]: ''' key released in window.h
+[DEBUG]: '(' key pressed in window.h
+[DEBUG]: '(' key released in window.h
+[DEBUG]: '%' key pressed in window.h
+[DEBUG]: '%' key released in window.h
+[DEBUG]: ''' key pressed in window.h
+[DEBUG]: ''' key released in window.h
+[DEBUG]: '%' key pressed in window.h
+[DEBUG]: '%' key released in window.h
+[DEBUG]: ''' key pressed in window.h
+[DEBUG]: ''' key released in window.h
+[DEBUG]: ''' key pressed in window.h
+[DEBUG]: ''' key released in window.h
+[DEBUG]: '%' key pressed in window.h
+[DEBUG]: '%' key released in window.h
+[DEBUG]: ''' key pressed in window.h
+[DEBUG]: ''' key released in window.h
+[DEBUG]: '&' key pressed in window.h
+[DEBUG]: '&' key released in window.h
+[DEBUG]: ''' key pressed in window.h
+[DEBUG]: ''' key released in window.h
+[DEBUG]: '%' key pressed in window.h
+[DEBUG]: '%' key released in window.h
+[DEBUG]: '&' key pressed in window.h
+[DEBUG]: '%' key pressed in window.h
+[DEBUG]: '&' key released in window.h
+[DEBUG]: '&' key pressed in window.h
+[DEBUG]: '%' key released in window.h
+[DEBUG]: '%' key pressed in window.h
+[DEBUG]: '&' key released in window.h
+[DEBUG]: ''' key pressed in window.h
+[DEBUG]: '%' key released in window.h
+[DEBUG]: '&' key pressed in window.h
+[DEBUG]: '(' key pressed in window.h
+[DEBUG]: ''' key released in window.h
+[DEBUG]: '&' key released in window.h
+[DEBUG]: '%' key pressed in window.h
+[DEBUG]: '(' key released in window.h
+[DEBUG]: '%' key released in window.h
+[DEBUG]: '&' key pressed in window.h
+[DEBUG]: '&' key released in window.h
+[DEBUG]: ''' key pressed in window.h
+[DEBUG]: '(' key pressed in window.h
+[DEBUG]: '(' key released in window.h
+[DEBUG]: 'W' key pressed in window.h
+[DEBUG]: ''' key released in window.h
+[DEBUG]: '%' key pressed in window.h
+[DEBUG]: 'W' key released in window.h
+[DEBUG]: '%' key released in window.h
+[DEBUG]: ''' key pressed in window.h
+[DEBUG]: ''' key released in window.h
+[DEBUG]: '%' key pressed in window.h
+[DEBUG]: 'S' key pressed in window.h
+[DEBUG]: '%' key released in window.h
+[DEBUG]: 'S' key released in window.h
+[DEBUG]: 'D' key pressed in window.h
+[DEBUG]: 'D' key released in window.h
+[DEBUG]: 'W' key pressed in window.h
+[DEBUG]: '&' key pressed in window.h
+[DEBUG]: '&' key released in window.h
+[DEBUG]: 'W' key released in window.h
+[DEBUG]: '(' key pressed in window.h
+[DEBUG]: 'S' key pressed in window.h
+[DEBUG]: '(' key released in window.h
+[DEBUG]: 'S' key released in window.h
+[DEBUG]: '%' key pressed in window.h
+[DEBUG]: 'W' key pressed in window.h
+[DEBUG]: '%' key released in window.h
+[DEBUG]: 'W' key released in window.h
+[DEBUG]: ''' key pressed in window.h
+[DEBUG]: ''' key released in window.h
+[DEBUG]: ''' key pressed in window.h
+[DEBUG]: ''' key released in window.h
+[DEBUG]: ''' key pressed in window.h
+[DEBUG]: ''' key released in window.h
+[DEBUG]: '(' key pressed in window.h
+[DEBUG]: '(' key released in window.h
+[DEBUG]: '%' key pressed in window.h
+[DEBUG]: '%' key released in window.h
+[DEBUG]: ''' key pressed in window.h
+[DEBUG]: ''' key released in window.h
+[DEBUG]: '%' key pressed in window.h
+[DEBUG]: '%' key released in window.h
+[DEBUG]: ''' key pressed in window.h
+[DEBUG]: '%' key pressed in window.h
+[DEBUG]: ''' key released in window.h
+[DEBUG]: ''' key pressed in window.h
+[DEBUG]: '%' key released in window.h
+[DEBUG]: ''' key released in window.h
+[DEBUG]: '%' key pressed in window.h
+[DEBUG]: '%' key released in window.h
+[DEBUG]: ''' key pressed in window.h
+[DEBUG]: ''' key released in window.h
+[DEBUG]: '%' key pressed in window.h
+[DEBUG]: '%' key released in window.h
+[DEBUG]: ''' key pressed in window.h
+[DEBUG]: ''' key released in window.h
+[DEBUG]: '%' key pressed in window.h
+[DEBUG]: '%' key released in window.h
+[DEBUG]: ''' key pressed in window.h
+[DEBUG]: ''' key released in window.h
+[DEBUG]: '%' key pressed in window.h
+[DEBUG]: '&' key pressed in window.h
+[DEBUG]: '%' key released in window.h
+[DEBUG]: ''' key pressed in window.h
+[DEBUG]: ''' key released in window.h
+[DEBUG]: '%' key pressed in window.h
+[DEBUG]: '%' key released in window.h
+[DEBUG]: ''' key pressed in window.h
+[DEBUG]: ''' key released in window.h
+[DEBUG]: '&' key released in window.h
+[DEBUG]: ''' key pressed in window.h
+[DEBUG]: '(' key pressed in window.h
+[DEBUG]: ''' key released in window.h
+[DEBUG]: '(' key released in window.h
+[DEBUG]: '%' key pressed in window.h
+[DEBUG]: '%' key released in window.h
+[DEBUG]: '%' key pressed in window.h
+[DEBUG]: '%' key released in window.h
+[DEBUG]: ''' key pressed in window.h
+[DEBUG]: ''' key released in window.h
+[DEBUG]: '%' key pressed in window.h
+[DEBUG]: '%' key released in window.h
+[DEBUG]: '%' key pressed in window.h
+[DEBUG]: '%' key released in window.h
+[DEBUG]: ''' key pressed in window.h
+[DEBUG]: '%' key pressed in window.h
+[DEBUG]: '%' key released in window.h
+[DEBUG]: ''' key released in window.h
+[DEBUG]: '%' key pressed in window.h
+[DEBUG]: ''' key pressed in window.h
+[DEBUG]: '%' key released in window.h
+[DEBUG]: ''' key released in window.h
+[DEBUG]: '(' key pressed in window.h
+[DEBUG]: '%' key pressed in window.h
+[DEBUG]: '(' key released in window.h
+[DEBUG]: '(' key pressed in window.h
+[DEBUG]: '%' key released in window.h
+[DEBUG]: ''' key pressed in window.h
+[DEBUG]: '(' key released in window.h
+[DEBUG]: ''' key released in window.h
+[DEBUG]: '%' key pressed in window.h
+[DEBUG]: '%' key released in window.h
+[DEBUG]: ''' key pressed in window.h
+[DEBUG]: ''' key released in window.h
+[DEBUG]: Explicit = A key pressed!
+[DEBUG]: 'S' key pressed in window.h
+[DEBUG]: 'A' key released in window.h
+[DEBUG]: 'S' key released in window.h
+[DEBUG]: 'D' key pressed in window.h
+[DEBUG]: 'D' key released in window.h
+[DEBUG]: 'S' key pressed in window.h
+[DEBUG]: 'S' key released in window.h
+[DEBUG]: '%' key pressed in window.h
+[DEBUG]: '%' key released in window.h
+[DEBUG]: Explicit = A key pressed!
+[DEBUG]: 'A' key released in window.h
+[DEBUG]: 'W' key pressed in window.h
+[DEBUG]: 'W' key released in window.h
+[DEBUG]: 'W' key pressed in window.h
+[DEBUG]: 'W' key released in window.h
+[DEBUG]: Explicit = A key pressed!
+[DEBUG]: 'S' key pressed in window.h
+[DEBUG]: 'A' key released in window.h
+[DEBUG]: 'S' key released in window.h
+[DEBUG]: 'D' key pressed in window.h
+[DEBUG]: 'D' key released in window.h
+[INFO]: EVENT_CODE_APPLICATION_QUIT received, shutting down.
+
+[TRACE]: Destroying material 'test_material'...h
+[TRACE]: Released texture 'paving'., Texture unloaded because reference count=0 and auto_release=true.
+[TRACE]: Destroying material 'default'...h
+[DEBUG]: Destroying Vulkan device...
+[INFO]: Destroying command pools...
+[INFO]: Destroying logical device...
+[INFO]: Releasing physical device resources...
+[DEBUG]: Destroying Vulkan surface...
+[DEBUG]: Destroying Vulkan debugger...
+[DEBUG]: Destroying Vulkan instance...
